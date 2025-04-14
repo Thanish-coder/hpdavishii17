@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'Papyrus Fantasy';
+  src: url('fonts/PapyrusFantasy.woff2') format('woff2'),
+       url('fonts/PapyrusFantasy.woff') format('woff'),
+       url('fonts/PapyrusFantasy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body{
+  background-color: #ffaed7;
+  position: relative;
+  font-family: 'Papyrus', fantasy;
+
+  overflow: hidden;
+
+  perspective: 1500px; /* Create 3D space */
+  }
+  
+  .main{
+
+  height: 100vh;
+  background-color:#ffaed7;
+  font-family: 'Papyrus', fantasy;
+  overflow: hidden;
+    position: relative;
+  perspective: 1500px; /* Create 3D space */
+  
+  }
+  
+  .wishkannada{
+  color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  animation: popUp 1.5s ease-out forwards;
+  z-index: 10;
+  font-family: 'Papyrus', fantasy;
+
+  }
+  
+  .main-container{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: 'Papyrus', fantasy;
+  overflow: hidden;
+    position: relative;
+  perspective: 1500px; /* Create 3D space */
+  
+  }
+  
+  
+  @keyframes popUp {
+  0% {
+  transform: scale(0);
+  opacity: 0;
+  }x
+  50% {
+  transform: scale(1.5);
+  opacity: 1;
+  }
+  100% {
+  transform: scale(1.2);
+  opacity: 1;
+  }
+  }
+  
+  #mainpic{
+  width: 40vh;
+  height: 40vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  animation: popUpimg 1.5s ease-out forwards;
+  z-index: 10;
+  border-width: 50px;
+  border: #fff;
+  border-style: double ;
+
+  }
+
+  
+  .wishes{
+  color: whitesmoke;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  animation: popUpwish 1.5s ease-out forwards;
+  z-index: 10;
+  font-family: 'Papyrus', fantasy;
+  }
+  
+  .wishes2{
+    color: whitesmoke;
+    padding: auto;
+    margin-right: 10px;
+    margin-left: auto;
+    text-align: right;
+
+    animation: popUpwish 1.5s ease-out forwards;
+    z-index: 10;
+    font: 200;
+    font-size: 25px;
+  
+    font-family: 'Papyrus', fantasy;
+    }
+
+  @keyframes popUpwish {
+  0% {
+  transform: scale(0);
+  opacity: 0;
+  margin-bottom: 10px;
+  }
+  50% {
+  transform: scale(1.1);
+  opacity: 1;
+  margin-bottom: 50px;
+  
+  }
+  100% {
+  transform: scale(0.959);
+  opacity: 1;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  }
+  }
+  
+  @keyframes popUpimg {
+  0% {
+  transform: scale(0);
+  opacity: 0;
+  margin-bottom: 10px;
+  }
+  50% {
+  transform: scale(1.2);
+  opacity: 1;
+  margin-bottom: 50px;
+  
+  }
+  100% {
+  transform: scale(1);
+  opacity: 1;
+  margin-bottom: 10px;
+  }
+  }
+  
+  #btnmain{
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: #ff77bc;
+  border-color: #ffcae5;
+  z-index: 10;
+  animation: popUpturn 1.5s ease-out forwards;
+  font-family: 'Papyrus', fantasy;
+  }
+  
+  
+  #btnmain:hover{
+  background-color: #fb6cb3;
+  border-color: #ff77bc;
+  border: 10px 10px 10px 10px;
+  }
+
+.avi{
+  color: whitesmoke;
+  display:block;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  animation: popUpturn 1.5s ease-out forwards;
+  font-family: 'Papyrus', fantasy;
+}
+
+@keyframes popUpturn {
+  0% {
+  transform: scale(0);
+  opacity: 0;
+  margin-bottom: 10px;
+  }
+  50% {
+  transform: scale(1.2);
+  opacity: 1;
+  margin-bottom: 50px;
+  
+  }
+  100% {
+  transform: scale(1);
+  opacity: 1;
+  margin-bottom: 10px;
+  }
+  }
+
+ 
+ #btnmain a{
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 0px;
+  width: 100px;
+  height: 50px;
+  color: whitesmoke;
+  text-align: center;
+
+
+  }
+  
+  a:hover{
+    text-decoration: none;
+  }
+
+
+
+

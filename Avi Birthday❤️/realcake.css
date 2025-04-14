@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffaed7;
+  font-family: Papyrus, "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  width: 100%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+.message h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #5a0038;
+}
+
+.message p {
+  font-size: 16px;
+  margin: 6px 0;
+  color: #5a0038;
+}
+
+.stopwatch {
+  background-color: #ffffffaa;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: bold;
+  color: #80004d;
+  margin-top: auto;
+}
+
+.proposal {
+  font-size: 18px;
+  margin: 20px 0 10px;
+  color: #6d0033;
+}
+
